@@ -23,7 +23,7 @@ Setup Instructions
 1. Clone the Repository
 
 bash
-git clone https://github.com/your-username/cybersecurity-tracker.git
+git clone https://github.com/ShreeDeepthi/T230_Hackathon
 cd cybersecurity-tracker
 
 
