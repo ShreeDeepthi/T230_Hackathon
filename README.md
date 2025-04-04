@@ -2,21 +2,21 @@ Cybersecurity Incident Tracking System
 Features
 
 Web Scraping: Extracts cybersecurity incident data from reliable sources.
-Machine Learning Classification: Uses TF-IDF + Naive Bayes to categorize incidents into types like *Phishing*, *Ransomware*, *Malware*.
+Machine Learning Classification: Uses TF-IDF + Naive Bayes to categorize incidents into types like Phishing, Ransomware, Malware.
 SQLite Storage: Stores all incidents and predictions in a persistent local database.
 Insights Generation: Aggregates incident data by type.
 Streamlit Dashboard: User-friendly frontend for displaying incidents and insights interactively.
 
 Project Structure
 .
-├── app.py                   # Streamlit frontend
-├── scraper.py              # Scrapes cybersecurity incidents
-├── database.py             # Stores scraped data into SQLite
-├── ml_classification.py    # Classifies incidents using ML
-├── insights.py             # Generates summary insights
-├── cyber_incidents.db      # SQLite database file
-├── requirements.txt        # List of dependencies
-└── README.md               # You're here!
+├── app.py                    Streamlit frontend
+├── scraper.py                Scrapes cybersecurity incidents
+├── database.py               Stores scraped data into SQLite
+├── ml_classification.py      Classifies incidents using ML
+├── insights.py               Generates summary insights
+├── cyber_incidents.db        SQLite database file
+├── requirements.txt          List of dependencies
+└── README.md                 You're here!
 
 Setup Instructions
 
